@@ -12,6 +12,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -28,12 +30,7 @@
 </head>
 
 <body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-
-    <!-- header-start -->
+ <!-- -----------------------------Header------------------------------- -->
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
@@ -49,24 +46,28 @@
                         <div class="col-xl-9 col-lg-9">
                             <div class="menu_wrap d-none d-lg-block">
                                 <div class="menu_wrap_inner d-flex align-items-center justify-content-end">
-                                    <div class="main-menu">
-                                        <nav>
-                                            <ul id="navigation">
-                                                <li><a href="index.html">home</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                                    <ul class="submenu">
-                                                        <li><a href="department.html">Deportment</a></li>
-                                                        <li><a href="elements.html">elements</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
+
+           <!--------------------------------- NavBar ---------------------------------->
+                                    
+                                   <div class="main-menu">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">HOME</a></li>
+                                            <li><a href="about.html">ABOUT</a></li>
+                                            <li><a href="./department.html">DPRT</a></li>
+                                            <li><a href="contact.html">CONTACT</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+           <!--------------------------------- /NavBar ---------------------------------->
+
+           
                                     <div class="book_room">
                                         <div class="book_btn">
-                                            <a class="popup-with-form" href="#test-form">Book  Appointment</a>
+                                            <a class="popup-with-form" href="#test-form">Sign Up</a>
+                                     
+                                            <a class="popup-with-form" href="#test-form">Log In</a>
                                         </div>
                                     </div>
                                 </div>
@@ -80,7 +81,8 @@
             </div>
         </div>
     </header>
-    <!-- header-end -->
+ <!-- -----------------------------Header------------------------------- -->
+
 
     <!-- bradcam_area_start  -->
     <div class="bradcam_area breadcam_bg">
@@ -103,7 +105,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="welcome_thumb">
                         <div class="thumb_1">
-                            <img src="img/about/1.jpg" alt="">
+                            <img src="./img/banner/banner4.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -149,13 +151,13 @@
                             <div class="social_links">
                                 <ul>
                                     <li>
-                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                        <a href="#"> <i class="bi bi-facebook"></i> </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                        <a href="#"> <i class="bi bi-linkedin"></i> </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                        <a href="#"> <i class="bi bi-twitter"></i> </a>
                                     </li>
                                 </ul>
                             </div>
@@ -173,13 +175,13 @@
                             <div class="social_links">
                                 <ul>
                                     <li>
-                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                        <a href="#"> <i class="bi bi-facebook"></i> </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                        <a href="#"> <i class="bi bi-linkedin"></i> </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                        <a href="#"> <i class="bi bi-twitter"></i> </a>
                                     </li>
                                 </ul>
                             </div>
@@ -197,13 +199,13 @@
                             <div class="social_links">
                                 <ul>
                                     <li>
-                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                        <a href="#"> <i class="bi bi-facebook"></i> </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                        <a href="#"> <i class="bi bi-linkedin"></i> </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                        <a href="#"> <i class="bi bi-twitter"></i> </a>
                                     </li>
                                 </ul>
                             </div>
@@ -230,7 +232,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_quality">
                         <div class="icon">
-                            <i class="flaticon-customer-service"></i>
+                            <i class="bi bi-capsule"></i>
                         </div>
                         <h3>Health Consultation</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
@@ -239,7 +241,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_quality">
                         <div class="icon">
-                            <i class="flaticon-find"></i>
+                            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
                         </div>
                         <h3>Find Health</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
@@ -248,7 +250,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_quality">
                         <div class="icon">
-                            <i class="flaticon-doctor"></i>
+                            <i class="bi bi-clipboard2-pulse"></i>
                         </div>
                         <h3>Search Deoctor</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
@@ -259,39 +261,7 @@
     </div>
     <!-- quality_areaend  -->
 
-    <!-- Emergency_contact start -->
-    <div class="Emergency_contact">
-        <div class="Emergency_contact_inner ">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="single_emergency">
-                            <div class="info">
-                                <span>We are here for you</span>
-                                <h3>Book Appointment</h3>
-                            </div>
-                            <div class="info_button">
-                                <a href="#" class="boxed-btn3-white">Book Appointment
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="single_emergency align-items-center d-flex justify-content-end">
-                            <div class="icon">
-                                <i class="flaticon-call"></i>
-                            </div>
-                            <div class="info">
-                                <span>Emergency Medical Care</span>
-                                <h3>+1-465 4545</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Emergency_contact end -->
+   
 
     <footer class="footer">
         <div class="footer_top">
@@ -434,6 +404,12 @@
     <!-- form itself end -->
 
     <!-- JS here -->
+    <!-- --------------------------------font-awesome--------------------------------- -->
+
+    <script src="https://kit.fontawesome.com/abdaddd2d7.js" crossorigin="anonymous"></script>   
+
+    <!-- --------------------------------font-awesome--------------------------------- -->
+
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
