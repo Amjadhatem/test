@@ -15,11 +15,14 @@
  img{
   width:18vh;
 }
-img:hover{
+/* img:hover{
   width: 19vh;
   border-radius: 50%;
   transition: .5s;
-  
+} */
+
+span{
+  color: rgb(59, 0, 176);
 }
 
 
@@ -6064,7 +6067,7 @@ h6 {
 
 #navigation a:hover{
   transition: .5s;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 204, 255);
   border-bottom: 1px solid white;
 }
 
@@ -6877,7 +6880,7 @@ iframe {
   }
   
   #submit{
-    background-color: purple;
+    background-color: rgba(60, 117, 250, 0.85);
     width: 7rem;
     height: 3rem;
     color: white;
@@ -6965,10 +6968,115 @@ iframe {
   }
 
 
-/* @media (max-width: 1200px) {
-.main-menu{
-  border: 2px solid black;
-  font-size: 2rem;
+.doctor-card{
+  width: 400px; /* Increased width */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 12rem;
+  margin-bottom: 6rem;
 }
-} */
 
+.doctor-card-header{
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px; /* Increased padding */
+  text-align: center;
+}
+
+.doctor-card-body{
+  padding: 30px; /* Increased padding */
+
+}
+.card-title {
+  font-size: 28px; /* Increased font size */
+  margin-bottom: 15px; /* Increased margin */
+}
+
+.card-title:hover{
+  color: blue;
+  transition: .5s }
+
+.card-text {
+  font-size: 18px; /* Increased font size */
+}
+
+.card-img2 {
+  width:100%;
+  /* border: 2px solid black; */
+  height: auto;
+  margin-bottom: 20px; /* Increased margin */
+}
+
+.card-img2:hover {
+border: 1px solid blue;
+transition: .5s;
+border-radius: 1rem;
+}
+
+
+
+.Fsection{
+  background-image: url(../img/health-still-life-with-copy-space_23-2148854034.webp);
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+}
+
+.Fsection h1 {
+  position: absolute;
+  top: 20rem;
+  left: 45rem;
+  font-size: 72px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+
+}
+.Fsection h4 {
+  position: absolute;
+  top: 25rem;
+  left: 49rem;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  opacity: .6;
+}
+
+.cards1{
+  display: flex;
+  justify-content: space-evenly ;
+  /* position: absolute; */
+  /* bottom: 2  rem; */
+}
+
+
+@media (max-width: 1175px) {
+.Fsection h1{
+font-size: 70px;
+left: 30rem;
+}
+
+.Fsection h4{
+  font-size: 30px;
+left: 33rem;
+}}
+@media (max-width: 740px) {
+.Fsection h1{
+font-size: 70px;
+left: 10rem;
+}
+
+.Fsection h4{
+  font-size: 30px;
+  left: 10rem;
+}}
+@media (max-width: 667px) {
+.Fsection h1{
+font-size: 70px;
+left: 4rem;
+}
+
+.Fsection h4{
+  font-size: 30px;
+  left: 4ex;
+}}
