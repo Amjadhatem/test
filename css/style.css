@@ -1057,6 +1057,7 @@ h3 {
   text-align: center;
 }
 
+
 /* line 90, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
@@ -1070,6 +1071,7 @@ h3 {
     
     margin-right: 20px;
   }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -3384,6 +3386,10 @@ h3 {
   line-height: 1;
   color: #fff;
   margin-right: 40px;
+}
+
+.icon:hover{
+width: 20rem;
 }
 
 @media (max-width: 767px) {
@@ -6057,8 +6063,9 @@ h6 {
 }
 
 #navigation a:hover{
-  transition: .2s;
-  font-size: 1.6rem;
+  transition: .5s;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid white;
 }
 
 /* line 1182, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_blog.scss */
@@ -6679,6 +6686,17 @@ h6 {
     /* border: 2px solid yellow; */
   }
 
+  .popup_box {
+    /* border: 2px solid black; */
+    width: 26rem;
+    
+  }
+  .popup_box .row {
+    border: 2px solid black;
+    width: 22rem;
+    margin-right: 5rem;
+  }
+
   
 }
 
@@ -6909,3 +6927,48 @@ iframe {
     /* background-color: purple; */
 
   }
+
+  .nice-select  {
+    background-color: black
+  }
+
+  @media (max-width: 667px) {
+    /* line 150, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_blog_part.scss */
+
+  
+    .popup_box {
+      /* border: 2px solid black; */
+      width: 26rem;
+      
+    }
+    .popup_box .row {
+      /* border: 2px solid black; */
+      width: 22rem;
+      margin-right: 5rem;
+    }
+  
+    .contact-form{
+      /* border: 2px solid black; */
+      width: 20rem;
+    }
+
+    .contact-form input{
+      /* border: 2px solid black; */
+      width: 18rem;
+
+    }
+    .contact-form textarea{
+      width: 18rem;
+
+    }
+
+  }
+
+
+/* @media (max-width: 1200px) {
+.main-menu{
+  border: 2px solid black;
+  font-size: 2rem;
+}
+} */
+
