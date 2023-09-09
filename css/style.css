@@ -2478,9 +2478,9 @@ h3 {
 }
 
 /* line 4, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_bradcam.scss */
-.breadcam_bg_1 {
+/* .breadcam_bg_1 {
   background-image: url(../img/banner/bradcam2.png);
-}
+} */
 
 /* line 7, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_bradcam.scss */
 .breadcam_bg_2 {
@@ -3571,8 +3571,7 @@ h3 {
 /* line 24, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_contact.scss */
 .contact-info .media-body h3 {
   font-size: 16px;
-  margin-bottom: 0;
-  font-size: 16px;
+  font-size: 25px;
   color: #2a2a2a;
 }
 
@@ -6671,9 +6670,16 @@ h6 {
 
 @media (max-width: 576px) {
   /* line 150, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_blog_part.scss */
-  .blog_part .single-home-blog .card ul li {
-    margin-right: 10px;
+  .Msection{
+    display: flex;
+    flex-direction: column;
   }
+  #Map{
+    margin: 0 auto;
+    /* border: 2px solid yellow; */
+  }
+
+  
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -6782,45 +6788,92 @@ label {
 /* ---------------------------/Search Box---------------------- */
 
 
-/* ------------------------------------------------------------------- */
+/* -------------------------------location-------------------------------- */
 
-  .map-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-}
+  /* .map-container {
+    
+
+
+} */
 
 /* Style the iframe */
 iframe {
     width: 100%;
     height: 450px;
-    border: 2px solid #007BFF; /* Add a border */
+    border: 2px solid #007BFF; 
     border-radius: 5px; /* Add rounded corners */
 }
+
+#Map{
+  border: 2px solid black;
+  width: 50%;
+  margin-top: .2rem ;
+}
+
+/* -------------------------------/location-------------------------------- */
+
 
 
 /* ----------------------------------Contact Us------------------------------- */
     /* Styles for the form container */
+
+    .section2{
+      background-image: url(../img/young-handsome-physician-medical-robe-with-stethoscope_1303-17818.webp);
+      background-position: center;
+      background-size: cover;
+      margin-top: 8rem;
+      height: 40rem;
+      padding-top: 3.5rem;
+      padding-left: 2rem;
+    }
+
+    ::placeholder{
+      text-align: center;
+    }
     .contact-form {
-      max-width: 520px;
-      margin: 0 auto;
+      width: 520px;
+      align-self: center;
       padding: 20px;
-      background-color: #e0f2f1; /* Light blue background color */
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       border-radius: 5px;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+      border: 1px solid black;
+      
   }
 
-  /* Styles for form fields */
-  .form-group {
-      margin-bottom: 15px;
+  .contact-form h2{
+    color: white;
+    padding-bottom: 2rem;
+    text-align: center;
   }
 
-  .form-group label {
-      display: block;
-      margin-bottom: 5px;
-      color: #333;
+  .contact-form h2:hover{
+    color: black;
+    transition: .5s;
+
+  }
+
+  .contact-form input:hover{
+    border: 1px solid black;
+    width: 30.2 rem;
+    transition: .5s;
+  }
+  
+  #submit{
+    background-color: purple;
+    width: 7rem;
+    height: 3rem;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    font-size: x-large;
+  }
+
+  #submit:hover{
+    border: 1px solid white;
+    width: 8rem;
+    color: pink;
+    /* transition: .5s; */
+    transition: .5s;
   }
 
   /* Style for input fields */
@@ -6837,16 +6890,22 @@ iframe {
       height: 150px;
   }
 
-  /* Style the submit button */
-  .submit-button {
-      background-color: #007BFF; /* Blue button color */
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 3px;
-      cursor: pointer;
+  textarea:hover{
+    border: 1px solid black;
+    transition: .5s;
   }
 
-  .submit-button:hover {
-      background-color: #0056b3; /* Darker blue on hover */
+  .Msection{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black */
+  }
+
+  .info{
+    width: 49.8%;
+    height: 100%;
+    text-align: center;
+    align-self: center;
+    /* background-color: purple; */
+
   }
